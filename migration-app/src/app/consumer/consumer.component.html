@@ -1,0 +1,19 @@
+<h1>Previous Version</h1>
+<h2>Simple Bindings: </h2>
+<label>attributeBase:</label>
+<input [(ngModel)]="attributeBase">
+<br>
+<label>attributeExtended:</label>
+<input [(ngModel)]="attributeExtended">
+<br>
+<label>propertyExtended:</label>
+<input [(ngModel)]="propertyExtended">
+<br>
+<label>methodExtended: attributeBase === attributeExtended</label>
+<br>
+<label>ilineExpressionExtended: attributeBase === this.componentLogic.propertyExtended</label>
+<br>
+<h2>Component Extended</h2>
+<app-component-extended [attributeBase]="attributeBase" [attributeExtended]="attributeExtended" [propertyExtended]="propertyExtended"
+  [methodExtended]="methodExtended()" [ilineExpressionExtended]="attributeBase === propertyExtended">
+</app-component-extended>

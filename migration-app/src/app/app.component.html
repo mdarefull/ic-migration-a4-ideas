@@ -1,0 +1,3 @@
+<button (click)="showVersion2 = !showVersion2">Toggle Version</button>
+<app-consumer *ngIf="showVersion2"></app-consumer>
+<app-consumer-v2 *ngIf="!showVersion2"></app-consumer-v2>
