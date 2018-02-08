@@ -1,0 +1,10 @@
+<h1>Previous Version</h1>
+<h2>Event values:</h2>
+<label>baseEvent: "{{baseEvent}}"</label>
+<br>
+<label>extendedEvent: "{{extendedEvent}}"</label>
+<br>
+<label>inlineExtendedEvent: "{{inlineExtendedEvent}}"</label>
+<br>
+<app-component-extended (eventBase)="handleBase($event)" (eventExtended)="handleExtended($event)" (inlineEventExtended)="inlineExtendedEvent = $event">
+</app-component-extended>

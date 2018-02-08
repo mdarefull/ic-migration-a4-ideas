@@ -1,13 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-**/dist
-**/dist-server
-**/tmp
-**/out-tsc
+/dist
+/dist-server
+/tmp
+/out-tsc
 
 # dependencies
-**/node_modules
+/node_modules
 
 # IDEs and editors
 /.idea
@@ -41,11 +41,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-/.vs/infocorp-migration-a4/v15/.suo
-/.vs/VSWorkspaceState.json
-*.suo
-*.json
-*.json
-/generic-output-app/.vscode/settings.json
-*.json
-/generic-output-app/.vscode/settings.json

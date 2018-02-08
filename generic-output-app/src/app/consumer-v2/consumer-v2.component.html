@@ -1,0 +1,10 @@
+<h1>Current Version</h1>
+<h2>Event values:</h2>
+<label>baseEvent: "{{baseEvent}}"</label>
+<br>
+<label>extendedEvent: "{{componentLogic.extendedEvent}}"</label>
+<br>
+<label>inlineExtendedEvent: "{{componentLogic.inlineExtendedEvent}}"</label>
+<br>
+<app-component-v2 (onInit)="componentLogic.initializeComponentV2($event)" (eventBase)="componentLogic.handleBase($event)">
+</app-component-v2>
