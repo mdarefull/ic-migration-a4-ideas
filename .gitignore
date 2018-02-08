@@ -43,3 +43,7 @@ testem.log
 Thumbs.db
 /.vs/infocorp-migration-a4/v15/.suo
 /.vs/VSWorkspaceState.json
+*.suo
+*.json
+*.json
+/generic-output-app/.vscode/settings.json

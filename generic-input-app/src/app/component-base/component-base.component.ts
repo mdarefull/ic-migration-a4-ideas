@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-component-base',
-  templateUrl: './component-base.component.html',
+  template: '',
 })
 export class ComponentBaseComponent {
 

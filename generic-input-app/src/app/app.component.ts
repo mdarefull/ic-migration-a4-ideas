@@ -7,7 +7,3 @@ import { Component } from '@angular/core';
 export class AppComponent {
   showVersion2 = true;
 }
-
-export class GenericObj {
-  constructor(public a: string, public b: string) { }
-}
